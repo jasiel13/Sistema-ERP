@@ -1,0 +1,61 @@
+.r
+{
+  background-color: red;
+  color: white;
+  font-size:22px;
+  text-align: center;
+}
+.v
+{
+  background-color: green;
+    color: white;
+  font-size:22px;
+  text-align: center;
+}
+.a
+{
+  background-color: yellow;
+  color: black;
+  font-size:22px;
+  text-align: center;
+}
+
+
+.ta
+{
+  background-color: #5f8bfa;
+}
+body
+{
+  background-color: white;
+}
+
+.w
+{
+  background-color: white;
+}
+
+.bg0
+{
+  background-color:#009;
+  color:#FFF; font-size:12px;
+}
+.p
+{
+    background-color: #007199;
+}
+.titles
+{
+  background-color:#009;
+  color:#FFF; font-size:16px;
+}
+.t{background-color: #0B0B61; color:#FAFAFA;}
+.i{ background-color: #F4FA58; font: bold 90% monospace; }
+.n{ background-color: #BDBDBD; font: bold 90% monospace; }
+
+#container {
+  min-width: 310px;
+  max-width: 800px;
+  height: 400px;
+  margin: 0 auto
+}

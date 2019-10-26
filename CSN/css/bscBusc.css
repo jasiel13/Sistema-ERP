@@ -1,0 +1,86 @@
+input[type=txt], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+h2
+{
+  display: inline-block;
+color: white; text-shadow: black 0.1em 0.1em 0.2em
+
+}
+input[type=date]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button]:hover {
+    background-color: #069A12;
+    color:white;
+    cursor: pointer;
+}
+input[type=button]{
+    width: 40%;
+   background-color: white;
+color: black;
+border: 2px solid #4CAF50;
+padding: 3px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 8px 0;
+line-height: 1.5;
+font-family: Verdana,sans-serif;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: helvetica,arial,sans-serif;
+}
+.lab
+{
+	width: 25%;
+}
+.tex
+{
+	width: 100%;	
+}

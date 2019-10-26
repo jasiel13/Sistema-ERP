@@ -1,0 +1,19 @@
+<html>
+<title>Datos A Graficar</title>
+</head>
+<body>
+<table border='1'>
+	<tr><td>Fecha</td><td>Cotizacion</td><td>Cliente</td><td>Aceptada</td><td>Cancelada</td></tr>
+<?php
+include ('conexion.php');
+$s=mysql_query("select fecha, idpedido, cliente from pedido where tipo='2' AND estadoc='PENDIENTE'");
+while($r=mysql_fetch_array($s))
+{
+?>
+<tr><td><?php echo $r[0]?></td><td><?php echo $r[1]?></td><td><?php echo $r[2]?></td></tr>
+<?php
+}
+?>
+</table>	
+</body>
+</html>
